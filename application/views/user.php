@@ -5,7 +5,7 @@
 	// die();
 ?>
 <section class="banner inner-page">
-	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/1.png" alt=""></div>
+	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/contact_background.jpg" alt=""></div>
 	<div class="page-title">	
 		<div class="container">
 			<h1>Account Settings</h1>

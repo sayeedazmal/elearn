@@ -24,7 +24,7 @@ date_default_timezone_set('Asia/Kolkata');
 |
 */
 
-$config['base_url'] = 'http://localhost/some_location/';
+$config['base_url'] = 'http://localhost/elearn/';
 
 /*
 |--------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <section class="banner">
-	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/1.png" alt=""></div>
+	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/teachers_background.jpg" alt=""></div>
 	<div class="banner-text">
 		<div class="container">
 			<br><h1>Get and Share Knowledge</h1>

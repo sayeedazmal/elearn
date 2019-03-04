@@ -151,15 +151,11 @@
 </head>
 
 <body>
-	<div id="wruper">
-		Made In India with <i class="fa fa-heart" style="color:red;"></i>
-	</div>
+	
 	<div class="wapper">
 		<div class="quck-nav">
 			<div class="container">
-				<div class="contact-no"><a href="some_link_here"><i class="fa fa-map-marker"></i>F-23, Agersen Point, City Light, Surat</a></div>
-				<div class="contact-no"><a href="Tel:919558994445"><i class="fa fa-phone"></i>+91 95589 94445</a></div>
-				<div class="contact-no"><a href="mailto:your_mail_here"><i class="fa fa-envelope"></i>your_mail_here</a></div>
+				
 				<div class="quck-right">
 					<!-- notification start -->
 					<?php

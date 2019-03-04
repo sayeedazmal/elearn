@@ -169,7 +169,7 @@ $rand=rand(10,50);
 							<!-- <li><a href="javascript:void(0);" id="profile">Profile</a></li> -->
 							<li class="active"><a href="javascript:void(0);" id="Followers">Followers</a></li>
 							<li><a href="javascript:void(0);" id="Following">Following</a></li>
-							<li><a href="javascript:void(0);" id="Poll">Poll</a></li>
+							
 							<li><a href="javascript:void(0);" id="QuestionAsked">Question Asked</a></li>
 							<li><a href="javascript:void(0);" id="AnswerGiven">Answer Given</a></li>
 						</ul>

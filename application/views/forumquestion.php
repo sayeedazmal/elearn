@@ -6,7 +6,7 @@
 $this->load->helper('date');
 ?>
 <section class="banner inner-page">
-	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/1.png" alt=""></div>
+	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/teachers_background.jpg" alt=""></div>
 	<div class="page-title">	
 		<div class="container">
 			<h1>Discussion</h1>

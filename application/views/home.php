@@ -1,5 +1,5 @@
 <section class="banner">
-	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/1.png" alt=""></div>
+	<div class="banner-img"><img src="<?=base_url('resources/user/assets/');?>images/banner/contact_background.jpg" alt=""></div>
 	<div class="banner-text">
 		<div class="container">
 			<h1>Learn the smart way</h1>
@@ -181,14 +181,6 @@
 	</section>
 -->
 
-<section class="page-404">
-	<div class="section-title">
-		<h2>Location</h2>
-	</div>
-	<div class="container">
-		<iframe src="some_link_here" frameborder="0" style="border:0" allowfullscreen height="450" width="100%"></iframe>
-	</div>
-</section>
 
 <section class="start-learning">
 	<div class="container">
