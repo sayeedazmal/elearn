@@ -17,9 +17,12 @@ class Course extends CI_Controller {
 	{
 		if($CourseID)
 		{
+			$this->load->model(array('Rsresource'));
 			//get perticular course details
 			$data['Course_Data']=$this->cm->getCourseData($CourseID);
 			$data['Chapter_Data']=$this->cm->getChapterData($CourseID);
+			$data['resources']=$this->Rsresource->getByCourse($CourseID);
+
 			if(count($data['Course_Data'])==0)
 				get_view('error_404','Page Not Found');
 			else

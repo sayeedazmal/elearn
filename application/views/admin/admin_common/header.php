@@ -343,6 +343,12 @@
 							<span>Manage Reports</span>
 						</a>
 					</li>
+					<li>
+						<a href="<?=site_url('resource');?>">
+							<i class="fa fa-bar-chart"></i>
+							<span>Resource</span>
+						</a>
+					</li>
 					<!--
 						<li>
 							<a href="<?=site_url('admin/challenge');?>">

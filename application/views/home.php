@@ -3,14 +3,14 @@
 	<div class="banner-text">
 		<div class="container">
 			<h1>Learn the smart way</h1>
-			<p>Join us today :)</p>
+			<p>Join us today</p>
 			<!--
 				<div class="search-box">	
 					<input type="text" placeholder="Search here">
 					<input type="submit" value="">
 				</div>
 			-->
-			<div class="learning-btn" style="margin-top:105px;">
+			<div class="learning-btn">
 				<a href="<?=site_url('/Category');?>" class="btn">Start learning now</a>
 			</div>
 		</div>
@@ -82,7 +82,7 @@
 		<div class="section-title">
 			<h2>Top Users</h2>
 		</div>
-		<div class="feedback-slider" style="padding-bottom:0px;background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://localhost/projects/ts2/resources/user/assets/images/background/<?=rand(1,50)?>.jpg);overflow-x:hidden;margin-bottom:10px;">
+		<div class="feedback-slider" style="padding-bottom:0px;background:	#556B2F; margin-bottom:10px;">
 			<div class="item">
 				<div class="student-img"><img src="<?=base_url('resources/user/uploads/'.$UserData[0]->UserAvatar);?>" alt="" style="height:80px;width:80px;"></div>
 				<div class="student-name" style="font-size:2em;color: white;"><?=$UserData[0]->UserName?></div>

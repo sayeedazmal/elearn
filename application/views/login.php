@@ -43,7 +43,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<form action="<?php //echo site_url('/Register/Register'); ?>" method="post">
+				<form action="<?php echo site_url('/Register/Register'); ?>" method="post">
 					<div class="section-title">
 						<h2>REGISTER</h2>
 						<p>Register now - Completely free</p>

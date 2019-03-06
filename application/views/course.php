@@ -295,3 +295,43 @@
 		
 	</div>
 </div>
+
+<div class="resources">
+			<h2>Video Resource</h2>
+			<div class="row">
+				<?php
+				foreach ($resources as $keyResouce => $valueResouce) {
+					if(strtolower($valueResouce->type) == 'video'){
+					?>
+
+					<div class="col-md-3">
+						<h3><?php echo $valueResouce->title; ?></h3>
+						<video poster="<?php echo site_url('uploads/'.$valueResouce->thubnail); ?>" width="400" controls>
+						  <source src="<?php echo site_url('uploads/'.$valueResouce->url); ?>" type="video/mp4">
+						  <source src="mov_bbb.ogg" type="video/ogg">
+						  Your browser does not support HTML5 video.
+						</video>
+					</div>
+					<?php
+					}
+				}
+				?>
+			</div>
+			<h2>Files </h2>
+			<div class="row">
+				<?php
+				foreach ($resources as $keyResouce => $valueResouce) {
+					if(strtolower($valueResouce->type) != 'video'){
+
+					?>
+					<div class="col-md-3">
+						<img src="<?php echo site_url('uploads/'.$valueResouce->thubnail); ?>">
+						<h3><?php echo $valueResouce->title; ?></h3>
+						<a href="<?php echo site_url('uploads/'.$valueResouce->url); ?>" class="btn btn-info">Download</a>
+					</div>
+					<?php
+					}
+				}
+				?>
+			</div>
+		</div>
