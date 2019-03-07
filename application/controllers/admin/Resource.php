@@ -2,9 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Resource extends CI_Controller{
+
+	
 	public function __construct()
 	{
 		parent::__construct();
+
 	}
 	public function Index()
 	{
@@ -12,7 +15,7 @@ class Resource extends CI_Controller{
 		$bodyData[] = [];
 		$bodyData['resouce'] = $this->Rsresource->getAll();
 
-		get_view("resource/list",'',$bodyData);
+		get_views("list",'',$bodyData);
 
 	}
 	public function Add(){
@@ -67,7 +70,7 @@ class Resource extends CI_Controller{
 
 		$bodyData['courses'] = $this->Rsresource->getCourses();
 		$bodyData['user_id'] = 1;
-		get_view("resource/upload",'',$bodyData);
+		get_views("upload",'',$bodyData);
 	}
 	public function delete($id){
 		$this->load->model(array('Rsresource'));

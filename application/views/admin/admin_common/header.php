@@ -344,7 +344,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?=site_url('resource');?>">
+						<a href="<?=site_url('admin/resource');?>">
 							<i class="fa fa-bar-chart"></i>
 							<span>Resource</span>
 						</a>

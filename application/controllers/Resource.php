@@ -12,7 +12,8 @@ class Resource extends CI_Controller{
 		$bodyData[] = [];
 		$bodyData['resouce'] = $this->Rsresource->getAll();
 
-		get_view("resource/list",'',$bodyData);
+		get_views("admin/list",'',$bodyData);
+
 
 	}
 	public function Add(){
@@ -67,7 +68,7 @@ class Resource extends CI_Controller{
 
 		$bodyData['courses'] = $this->Rsresource->getCourses();
 		$bodyData['user_id'] = 1;
-		get_view("resource/upload",'',$bodyData);
+		get_views("admin/upload",'',$bodyData);
 	}
 
 }
