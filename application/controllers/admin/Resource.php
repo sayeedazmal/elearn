@@ -15,6 +15,7 @@ class Resource extends CI_Controller{
 		$bodyData[] = [];
 		$bodyData['resouce'] = $this->Rsresource->getAll();
 
+
 		get_views("list",'',$bodyData);
 
 	}
@@ -65,7 +66,6 @@ class Resource extends CI_Controller{
 			$newData['user'] = $this->input->post('user');
 
 			$this->Rsresource->Add($newData);
-
 		}
 
 		$bodyData['courses'] = $this->Rsresource->getCourses();

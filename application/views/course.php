@@ -132,55 +132,67 @@ body {
 	</div>
 	</div>
 	
-	<div id="video" class="containerTab" style="display:none;background:blue;">
+	<div class="container">
+
+	  <div id="video" class="containerTab" style="display:none;background:white;">
 	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 	  <div class="resources">
-	  	
-				<h2>Video Resource</h2>
-				<div class="row">
-					<?php
+	  
+	  		<h2>Video Resource</h2>
+	  		<div class="row">
+	  		 <?php
 					foreach ($resources as $keyResouce => $valueResouce) {
 						if(strtolower($valueResouce->type) == 'video'){
 						?>
-
-						<div class="col-md-3">
+				
+						<div class="col-md-4">
+						
 							<h3><?php echo $valueResouce->title; ?></h3>
 							<video poster="<?php echo site_url('uploads/'.$valueResouce->thubnail); ?>" width="400" controls>
 							  <source src="<?php echo site_url('uploads/'.$valueResouce->url); ?>" type="video/mp4">
 							  <source src="mov_bbb.ogg" type="video/ogg">
 							  Your browser does not support HTML5 video.
 							</video>
-						</div>
+						
+					 </div>
+					
+						<?php
+
+						}
+					}
+
+					?>
+				 </div>
+
+	</div>
+	</div>
+</div>
+	
+	
+	<div class="container">
+	<div id="file" class="containerTab" style="display:none;background:white;">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+	   <div class="resources">
+	   	 	  <h2>PDF Document</h2>
+				<div class="row">
+					<?php
+					foreach ($resources as $keyResouce => $valueResouce) {
+						if(strtolower($valueResouce->type) != 'video'){
+
+					?>
+					<div class="col-md-4">
+						<img src="<?php echo site_url('uploads/'.$valueResouce->thubnail); ?>">
+						<h3><?php echo $valueResouce->title; ?></h3>
+						<a href="<?php echo site_url('uploads/'.$valueResouce->url); ?>" class="btn btn-info">Download</a>
+					</div>
 						<?php
 						}
 					}
 					?>
 				</div>
-		
-				
-		</div>
-	</div>
-	
-	<div id="file" class="containerTab" style="display:none;background:blue;">
-	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-	   <div class="resources">
-	    <h2>PDF Document</h2>
-		<div class="row">
-			<?php
-			foreach ($resources as $keyResouce => $valueResouce) {
-				if(strtolower($valueResouce->type) != 'video'){
 
-			?>
-			<div class="col-md-3">
-				<img src="<?php echo site_url('uploads/'.$valueResouce->thubnail); ?>">
-				<h3><?php echo $valueResouce->title; ?></h3>
-				<a href="<?php echo site_url('uploads/'.$valueResouce->url); ?>" class="btn btn-info">Download</a>
-			</div>
-				<?php
-				}
-			}
-			?>
-		</div>
+	   	 </div>
+	  
 	</div>
 </div>
 

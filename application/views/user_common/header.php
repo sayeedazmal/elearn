@@ -10,7 +10,7 @@
 						<span class="icon-bar"></span>
 					</button>
 				</div>
-				<div class="navbar-collapse collapse" style="margin-right: 100px;padding: 20px ">
+				<div class="navbar-collapse collapse" style="margin-right: 200px;padding: 20px ">
 					<ul class="nav navbar-nav">
 						<li class="menu">
 							<a href="<?=site_url('/Home');?>"> Home </a>
@@ -18,9 +18,9 @@
 						<li class="menu">
 							<a href="<?=site_url('/Category');?>"> Category </a>
 						</li>
-						<li class="menu">
+						<!-- <li class="menu">
 							<a href="<?=site_url('/Article');?>"> Article </a>
-						</li>
+						</li> -->
 						<li class="menu">
 							<a href="<?=site_url('/ForumQuestion');?>"> Discussions </a>
 						</li>
@@ -28,9 +28,9 @@
 							<a href="<?=site_url('/AskQuestion');?>"> Ask Question </a>
 						</li>
 						
-						<li class="menu">
+					<!-- 	<li class="menu">
 							<a href="<?=site_url('/Challenge');?>"> Challenge </a>
-						</li>
+						</li> -->
 						<li class="menu">
 							<a href="<?=site_url('/Home/Users');?>"> Users </a>
 						</li>

@@ -301,24 +301,24 @@
 							<li><a href="<?=site_url('admin/Section');?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-book"></i> Manage Section</a></li>
 						</ul>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="<?=site_url('admin/Article');?>">
 							<i class="fa fa-newspaper-o"></i>
 							<span>Manage Article</span>
 						</a>
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						<a href="<?=site_url('admin/Poll');?>">
 							<i class="fa fa-flag"></i>
 							<span>Manage Poll</span>
 						</a>
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						<a href="<?=site_url('admin/QuizQuestion');?>">
 							<i class="fa fa-question-circle"></i>
 							<span>Manage Quiz Q&A</span>
 						</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="<?=site_url('admin/User');?>">
 							<i class="fa fa-user"></i>
@@ -337,12 +337,12 @@
 							<span>Manage Tag</span>
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="<?=site_url('admin/SiteReport');?>">
 							<i class="fa fa-bar-chart"></i>
 							<span>Manage Reports</span>
 						</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="<?=site_url('admin/resource');?>">
 							<i class="fa fa-bar-chart"></i>

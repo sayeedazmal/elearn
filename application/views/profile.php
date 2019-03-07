@@ -133,13 +133,13 @@ $rand=rand(10,50);
 						<?php
 							}
 						?>
-						<p title="<?=$UserData[0]->CreatedDateTime;?>" data-toggle="tooltip">Joined 
+						<!-- <p title="<?=$UserData[0]->CreatedDateTime;?>" data-toggle="tooltip">Joined 
 							<?php
 								$dt = DateTime::createFromFormat('Y-m-d H:i:s', $UserData[0]->CreatedDateTime);
 								$dd3 = $dt->getTimestamp();
 								echo timespan($dd3, '', 2). ' ago';
 							?>
-						</p>
+						</p> -->
 					</div>
 				</div>
 			</div>
